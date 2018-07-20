@@ -1,0 +1,121 @@
+baseURL = "https://tendermeatlove.com"
+disablePathToLower = false
+languageCode = "en-us"
+Copyright = "© Copyright 2008-2018 Josh Rendek"
+title = "Josh Rendek"
+archetypeDir =                "archetypes"
+# DisqusShortname = "bluescripts"
+# hostname (and path) to the root, e.g. http://spf13.com/
+# include content marked as draft
+buildDrafts =                 false
+# include content with publishdate in the future
+buildFuture =                 false
+# include content already expired
+buildExpired =                false
+# enable this to make all relative URLs relative to content root. Note that this does not affect absolute URLs.
+relativeURLs =                false
+canonifyURLs =                false
+# config file (default is path/config.yaml|json|toml)
+config =                     "config.toml"
+contentDir =                  "content"
+dataDir =                     "data"
+defaultExtension =            "html"
+defaultLayout =               "post"
+# Missing translations will default to this content language
+defaultContentLanguage =      "en"
+# Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
+defaultContentLanguageInSubdir =  false
+disableLiveReload =           false
+# Do not build RSS files
+disableRSS =                  false
+# Do not build Sitemap file
+disableSitemap =              false
+# Enable GitInfo feature
+enableGitInfo =               false
+# Build robots.txt file
+enableRobotsTXT =             false
+# Do not render 404 page
+disable404 =                  false
+# Do not inject generator meta tag on homepage
+disableHugoGeneratorInject =  false
+# Allows you to disable all page types and will render nothing related to 'kind';
+# values = "page", "home", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT", "404"
+disableKinds = []
+# Enable Emoji emoticons support for page content; see emoji-cheat-sheet.com
+enableEmoji =                 false
+# Show a placeholder instead of the default value or an empty string if a translation is missing
+enableMissingTranslationPlaceholders = false
+footnoteAnchorPrefix =        ""
+footnoteReturnLinkContents =  ""
+#googleAnalytics =             "UA-3754808-1"
+# if true, auto-detect Chinese/Japanese/Korean Languages in the content. (.Summary and .WordCount can work properly in CJKLanguage)
+hasCJKLanguage =              false
+layoutDir =                   "layouts"
+# Enable Logging
+log =                         false
+# maximum number of items in the RSS feed
+rssLimit =                    15
+# "toml","yaml", or "json"
+metaDataFormat =              "toml"
+newContentEditor =            ""
+# Don't sync permission mode of files
+noChmod =                     false
+# Don't sync modification time of files
+noTimes =                     false
+# Pagination
+paginate =                    10
+paginatePath =                "page"
+# Pluralize titles in lists using inflect
+pluralizeListTitles =         true
+# Preserve special characters in taxonomy names ("Gérard Depardieu" vs "Gerard Depardieu")
+preserveTaxonomyNames =       false
+# filesystem path to write files to
+publishDir =                  "public"
+# enables syntax guessing for code fences without specified language
+pygmentsCodefences = true
+pygmentsCodeFencesGuessSyntax = true
+# color-codes for highlighting derived from this style
+highlighter = "chroma"
+pygmentsOptions = "linenos=inline"
+pygmentsStyle =               "tango"
+# true: use pygments-css or false: color-codes directly
+pygmentsUseClasses =          true
+# default sitemap configuration map
+source =                      ""
+staticDir =                   "static"
+# display memory and timing of different steps of the program
+stepAnalysis =                false
+# theme to use (located by default in /themes/THEMENAME/)
+themesDir =                   "themes"
+theme =                       "hugo-xmin"
+# if true, use /filename.html instead of /filename/
+uglyURLs =                    false
+# verbose output
+verbose =                     false
+# verbose logging
+verboseLog =                  false
+# watch filesystem for changes and recreate as needed
+watch =                       true
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[permalinks]
+post = "/:year/:month/:title/"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+[[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 5
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 7

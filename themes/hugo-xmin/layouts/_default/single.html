@@ -1,0 +1,22 @@
+{{ partial "header.html" . }}
+<div class="article-meta">
+    <h1><span class="title">{{ .Title }}</span></h1>
+    {{ with .Params.author }}<h2 class="author">{{ . }}</h2>{{ end }}
+
+    {{ if (gt .Params.date 0) }}
+    <small class="date">{{ .Date.Format "2006/01/02" }}</small>
+    {{ end }}
+</div>
+
+<main>
+    <ol class="ingredients">
+        <strong>Ingredients</strong>
+        {{ range $index, $element := .Params.ingredients }}
+        <li>{{ $element }}</li>
+        {{ end }}
+    </ol>
+
+    {{ .Content }}
+</main>
+
+{{ partial "footer.html" . }}
