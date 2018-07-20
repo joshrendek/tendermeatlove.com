@@ -9,7 +9,7 @@ body {
     float: left;
 }
 
-.logo h1 {
+.logo h1, h1 {
     font-size: 1em;
 }
 
