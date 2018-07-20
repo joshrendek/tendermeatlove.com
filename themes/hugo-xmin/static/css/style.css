@@ -88,4 +88,6 @@ thead, tfoot, tr:nth-child(even) { background: #eee }
 
 a:visited, a, a:link {
   color: blue;
+  text-decoration: none;
+  border-bottom: 1px solid blue;
 }
