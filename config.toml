@@ -2,7 +2,7 @@ baseURL = "https://tendermeatlove.com"
 disablePathToLower = false
 languageCode = "en-us"
 Copyright = "© Copyright 2008-2018 Josh Rendek"
-title = "Josh Rendek"
+title = "Tender Meat Love"
 archetypeDir =                "archetypes"
 # DisqusShortname = "bluescripts"
 # hostname (and path) to the root, e.g. http://spf13.com/
@@ -68,7 +68,6 @@ paginatePath =                "page"
 # Pluralize titles in lists using inflect
 pluralizeListTitles =         true
 # Preserve special characters in taxonomy names ("Gérard Depardieu" vs "Gerard Depardieu")
-preserveTaxonomyNames =       false
 # filesystem path to write files to
 publishDir =                  "public"
 # enables syntax guessing for code fences without specified language
@@ -96,25 +95,28 @@ verbose =                     false
 verboseLog =                  false
 # watch filesystem for changes and recreate as needed
 watch =                       true
-[taxonomies]
-category = "categories"
-tag = "tags"
+#[taxonomies]
+#category = "categories"
+#tag = "tags"
+
+preserveTaxonomyNames = true
 
 [permalinks]
-post = "/:year/:month/:title/"
+posts = "/:year/:month/:slug/"
+note = "/note/:year/:month/:slug/"
 
 [[menu.main]]
     name = "Home"
     url = "/"
     weight = 1
 [[menu.main]]
-    name = "Tags"
-    url = "/tags/"
-    weight = 3
-[[menu.main]]
     name = "Categories"
     url = "/categories/"
-    weight = 5
+    weight = 3
+[[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 4
 [[menu.main]]
     name = "About"
     url = "/about/"

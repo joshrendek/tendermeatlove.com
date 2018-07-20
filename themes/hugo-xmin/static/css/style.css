@@ -14,6 +14,20 @@ body {
   border-right: 1px dashed #cdcdcd;
 }
 
+.clearfix {
+    overflow: auto;
+}
+
+main ul li {
+  list-style-position: inside;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 /* header and footer areas */
 .menu { padding: 0; }
 .menu li { display: inline-block; }
@@ -58,3 +72,7 @@ table {
 table thead th { border-bottom: 1px solid #ddd; }
 th, td { padding: 5px; }
 thead, tfoot, tr:nth-child(even) { background: #eee }
+
+a:visited, a, a:link {
+  color: blue;
+}

@@ -8,11 +8,27 @@
 
 <ul>
   {{ range (where .Data.Pages "Section" "!=" "") }}
-  <li>
-    <span class="date">{{ .Date.Format "2006/01/02" }}</span>
-    <a href="{{ .URL }}">{{ .Title }}</a>
-  </li>
-  {{ end }}
+    <li>
+        <a href="{{ .URL }}">{{ .Title }}</a>
+        <br>
+        <small>
+            {{ range .Params.categories }}
+            <a href="{{ (print "/categories/" . | urlize) | relURL }}">@{{ . }}</a>
+            {{ end }} |
+            {{ range .Params.tags}}
+            <a href="{{ (print "/tags/" . | urlize) | relURL }}">#{{ . }}</a>
+            {{ end }}
+            |
+            {{ .Params.servings }} servings
+            |
+            {{ .Params.calories }} calories/serving
+            |
+            time: {{ .Params.time }}
+            |
+            <span class="date">{{ .Date.Format "2006/01/02" }}</span>
+        </small>
+    </li>
+    {{ end }}
 </ul>
 
 {{ partial "footer.html" . }}

@@ -10,11 +10,12 @@
   </head>
 
   <body>
-    <nav>
-    <ul class="menu">
-      {{ range .Site.Menus.main }}
-      <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
-      {{ end }}
-    </ul>
-    <hr/>
-    </nav>
+      <a href="/"><h1>{{ .Site.Title }} | Recipes</h1></a>
+      <nav>
+          <ul class="menu">
+              {{ range .Site.Menus.main }}
+              <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+              {{ end }}
+          </ul>
+          <hr/>
+      </nav>

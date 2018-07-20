@@ -9,14 +9,22 @@
 </div>
 
 <main>
-    <ol class="ingredients">
+    <ul class="ingredients">
+        <strong>Servings:</strong> {{ .Params.servings }}
+        <br>
+        <strong>Calories:</strong> ~{{ .Params.calories }}/serving
+        <br>
+        <strong>Time:</strong> {{ .Params.time }}
+        <hr>
         <strong>Ingredients</strong>
         {{ range $index, $element := .Params.ingredients }}
         <li>{{ $element }}</li>
         {{ end }}
-    </ol>
+    </ul>
 
     {{ .Content }}
+
+    <small>Source: {{ .Params.source }}</small>
 </main>
 
 {{ partial "footer.html" . }}
