@@ -10,7 +10,9 @@
   </head>
 
   <body>
-      <a href="/"><h1>{{ .Site.Title }} | Recipes</h1></a>
+      <div class="logo">
+        <a href="/"><h1>{{ .Site.Title }} | Recipes</h1></a>
+      </div>
       <nav>
           <ul class="menu">
               {{ range .Site.Menus.main }}
@@ -19,3 +21,4 @@
           </ul>
           <hr/>
       </nav>
+      <div class="clearfix"></div>

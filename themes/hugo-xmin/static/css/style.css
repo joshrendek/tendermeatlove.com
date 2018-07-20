@@ -5,6 +5,18 @@ body {
   line-height: 1.5em;
 }
 
+.logo {
+    float: left;
+}
+
+.logo h1 {
+    font-size: 1em;
+}
+
+nav {
+    float: right;
+}
+
 .ingredients {
   float: left;
   padding-right: 15px;
@@ -16,6 +28,7 @@ body {
 
 .clearfix {
     overflow: auto;
+    clear: both;
 }
 
 main ul li {
