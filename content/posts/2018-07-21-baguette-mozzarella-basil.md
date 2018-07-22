@@ -8,11 +8,11 @@ calories: 103
 source: Me
 ingredients:
     - 1 ~12" baguette
-    - 2 Tomatoes
+    - 2 tomatoes
     - ~12 basil leaves
-    - Herbs (I had dried oregano and rosemary from garden)
-    - Olive oil
-    - Extra virgin olive oil
+    - herbs (I had dried oregano and rosemary from garden)
+    - olive oil
+    - extra virgin olive oil
 categories:
     - appetizer
 tags:
