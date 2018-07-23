@@ -2,10 +2,6 @@
 <div class="article-meta">
     <h1><span class="title">{{ .Title }}</span></h1>
     {{ with .Params.author }}<h2 class="author">{{ . }}</h2>{{ end }}
-
-    {{ if (gt .Params.date 0) }}
-    <small class="date">{{ .Date.Format "2006/01/02" }}</small>
-    {{ end }}
 </div>
 <main>
     <ul class="ingredients">
@@ -24,6 +20,10 @@
     {{ .Content }}
 
     <small>Source: {{ .Params.source }}</small>
+    {{ if (gt .Params.date 0) }}
+    <br>
+    <small class="date">Made on: {{ .Date.Format "2006/01/02" }}</small>
+    {{ end }}
 </main>
 
 {{ partial "footer.html" . }}
