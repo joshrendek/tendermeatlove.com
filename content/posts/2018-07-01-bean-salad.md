@@ -21,6 +21,8 @@ categories:
     - main dish
 tags:
     - cold
+    - meal prep
+
 ---
 
 * Cook and cool rice
