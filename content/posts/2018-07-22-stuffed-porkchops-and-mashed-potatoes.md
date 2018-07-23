@@ -5,7 +5,7 @@ draft: false
 servings: 2
 time: 30m
 calories: 544
-source: Jacques Pepin / Youtube
+source: Jacques Pepin / Heart & Soul
 ingredients:
     - 4oz spinach
     - 1/4 tsp nutmeg
