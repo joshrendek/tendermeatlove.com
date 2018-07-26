@@ -1,6 +1,6 @@
 ---
 title: "Pan seared marinated skirt steak"
-date: 2018-07-22T01:18:27-04:00
+date: 2018-07-25T01:18:27-04:00
 draft: false
 servings: 2
 time: 15m
