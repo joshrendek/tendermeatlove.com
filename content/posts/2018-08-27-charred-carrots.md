@@ -10,6 +10,8 @@ ingredients:
     - Bag of carrots
     - thyme
     - olive oil
+    - honey
+    - chipotle powder
 categories:
     - side dish
 tags:
@@ -24,3 +26,4 @@ tags:
 * Cook in oven for 10 minutes
 * Flip carrots
 * Cook another 8-10 minutes
+* Drizzle with a very small amount of honey and chipotle pepper, toss to coat and serve
