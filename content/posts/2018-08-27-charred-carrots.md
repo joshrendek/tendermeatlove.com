@@ -3,7 +3,7 @@ title: "Charred carrots"
 date: 2018-08-27T01:18:27-04:00
 draft: false
 servings: 2
-time: 15m
+time: 20m
 calories: 150
 source: Me
 ingredients:
