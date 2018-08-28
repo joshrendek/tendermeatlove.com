@@ -8,6 +8,8 @@ calories: 150
 source: Me
 ingredients:
     - Bag of carrots
+    - thyme
+    - olive oil
 categories:
     - side dish
 tags:
