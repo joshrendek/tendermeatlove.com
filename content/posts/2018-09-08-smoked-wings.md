@@ -5,7 +5,7 @@ draft: false
 servings: 2-4
 time: 3h
 calories: 150
-source: Me
+source: https://www.dontsweattherecipe.com/amazing-smoked-chicken-wings/
 ingredients:
     - 2-3 lbs of chicken drums (or wings)
     - 2 tbsp chili powder

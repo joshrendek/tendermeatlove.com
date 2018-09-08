@@ -5,7 +5,7 @@ draft: false
 servings: 2
 time: 7h
 calories: 150
-source: Me
+source: https://honest-food.net/how-to-make-smoked-duck/
 ingredients:
     - 2 duck breasts
     - 2 cups apple juice
