@@ -1,6 +1,6 @@
 ---
 title: "BBQ Brisket"
-date: 2018-12-21T01:18:27-04:00
+date: 2018-12-24T01:18:27-04:00
 draft: false
 servings: 6
 time: 18h
