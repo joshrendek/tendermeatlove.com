@@ -1,15 +1,142 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Josh Rendek</title>
+    <title>Tags on Tender Meat Love</title>
     <link>https://tendermeatlove.com/tags/</link>
-    <description>Recent content in Tags on Josh Rendek</description>
+    <description>Recent content in Tags on Tender Meat Love</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright 2008-2018 Josh Rendek</copyright>
+    <lastBuildDate>Mon, 24 Dec 2018 01:18:27 -0400</lastBuildDate>
     
 	<atom:link href="https://tendermeatlove.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bbq</title>
+      <link>https://tendermeatlove.com/tags/bbq/</link>
+      <pubDate>Mon, 24 Dec 2018 01:18:27 -0400</pubDate>
+      
+      <guid>https://tendermeatlove.com/tags/bbq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bread</title>
+      <link>https://tendermeatlove.com/tags/bread/</link>
+      <pubDate>Sun, 02 Dec 2018 01:18:27 -0400</pubDate>
+      
+      <guid>https://tendermeatlove.com/tags/bread/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Broiler</title>
+      <link>https://tendermeatlove.com/tags/broiler/</link>
+      <pubDate>Sat, 21 Jul 2018 20:18:27 -0400</pubDate>
+      
+      <guid>https://tendermeatlove.com/tags/broiler/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cold</title>
+      <link>https://tendermeatlove.com/tags/cold/</link>
+      <pubDate>Thu, 19 Jul 2018 20:18:27 -0400</pubDate>
+      
+      <guid>https://tendermeatlove.com/tags/cold/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cream sauce</title>
+      <link>https://tendermeatlove.com/tags/cream-sauce/</link>
+      <pubDate>Sat, 15 Dec 2018 01:18:27 -0400</pubDate>
+      
+      <guid>https://tendermeatlove.com/tags/cream-sauce/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fish</title>
+      <link>https://tendermeatlove.com/tags/fish/</link>
+      <pubDate>Sun, 08 Jul 2018 20:18:27 -0400</pubDate>
+      
+      <guid>https://tendermeatlove.com/tags/fish/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fruit</title>
+      <link>https://tendermeatlove.com/tags/fruit/</link>
+      <pubDate>Tue, 10 Jul 2018 20:18:27 -0400</pubDate>
+      
+      <guid>https://tendermeatlove.com/tags/fruit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gluten free</title>
+      <link>https://tendermeatlove.com/tags/gluten-free/</link>
+      <pubDate>Sat, 15 Dec 2018 01:18:27 -0400</pubDate>
+      
+      <guid>https://tendermeatlove.com/tags/gluten-free/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Meal prep</title>
+      <link>https://tendermeatlove.com/tags/meal-prep/</link>
+      <pubDate>Sun, 22 Jul 2018 01:18:27 -0400</pubDate>
+      
+      <guid>https://tendermeatlove.com/tags/meal-prep/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quick</title>
+      <link>https://tendermeatlove.com/tags/quick/</link>
+      <pubDate>Mon, 27 Aug 2018 01:18:27 -0400</pubDate>
+      
+      <guid>https://tendermeatlove.com/tags/quick/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Savory</title>
+      <link>https://tendermeatlove.com/tags/savory/</link>
+      <pubDate>Fri, 21 Dec 2018 01:18:27 -0400</pubDate>
+      
+      <guid>https://tendermeatlove.com/tags/savory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Smoking</title>
+      <link>https://tendermeatlove.com/tags/smoking/</link>
+      <pubDate>Sat, 08 Sep 2018 01:18:27 -0400</pubDate>
+      
+      <guid>https://tendermeatlove.com/tags/smoking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Snack</title>
+      <link>https://tendermeatlove.com/tags/snack/</link>
+      <pubDate>Thu, 19 Jul 2018 20:18:27 -0400</pubDate>
+      
+      <guid>https://tendermeatlove.com/tags/snack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sous vide</title>
+      <link>https://tendermeatlove.com/tags/sous-vide/</link>
+      <pubDate>Fri, 21 Dec 2018 01:18:27 -0400</pubDate>
+      
+      <guid>https://tendermeatlove.com/tags/sous-vide/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

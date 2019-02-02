@@ -10,15 +10,27 @@
   </head>
 
   <body>
-      <div class="logo">
+    <div class="container is-hidden-print">
+    <div class="level">
+      <div class="logo level-left">
         <a href="/"><h1>{{ .Site.Title }} | Recipes</h1></a>
       </div>
       <nav>
-          <ul class="menu">
+          <ul class="level-right">
               {{ range .Site.Menus.main }}
-              <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+              <li class="level-item"><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
               {{ end }}
           </ul>
           <hr/>
       </nav>
+      </div>
+      </div>
       <div class="clearfix"></div>
+
+      <div class="container">
+        <div class="columns">
+          <div class="column is-one-quarter is-hidden-print">
+            {{ partial "menu.html" . }}
+          </div>
+
+          <div class="column">

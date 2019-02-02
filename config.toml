@@ -31,7 +31,7 @@ disableRSS =                  false
 # Do not build Sitemap file
 disableSitemap =              false
 # Enable GitInfo feature
-enableGitInfo =               false
+enableGitInfo =               true
 # Build robots.txt file
 enableRobotsTXT =             false
 # Do not render 404 page
@@ -121,3 +121,5 @@ note = "/note/:year/:month/:slug/"
     name = "About"
     url = "/about/"
     weight = 7
+
+

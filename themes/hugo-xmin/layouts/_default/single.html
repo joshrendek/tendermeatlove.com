@@ -4,7 +4,7 @@
     {{ with .Params.author }}<h2 class="author">{{ . }}</h2>{{ end }}
 </div>
 <main>
-    <ul class="ingredients">
+    <ul class="ingredients content">
         <strong>Servings:</strong> {{ .Params.servings }}
         <br>
         <strong>Calories:</strong> ~{{ .Params.calories }}/serving
@@ -12,12 +12,17 @@
         <strong>Time:</strong> {{ .Params.time }}
         <hr>
         <strong>Ingredients</strong>
+        <ul>
         {{ range $index, $element := .Params.ingredients }}
         <li>{{ $element }}</li>
         {{ end }}
+        </ul>
     </ul>
-
+    <hr>
+    <strong>Instructions:</strong>
+    <div class="content">
     {{ .Content }}
+    </div>
 
     <small>Source: {{ .Params.source }}</small>
     {{ if (gt .Params.date 0) }}

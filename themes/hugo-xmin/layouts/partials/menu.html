@@ -1,0 +1,24 @@
+{{ $home := .Site.Home }}
+{{- $currentNode := . }}
+{{- $showvisitedlinks := .Site.Params.showVisitedLinks -}}
+
+<div class="content is-medium is-hidden-print">
+		{{ template "section-tree-nav" $home }}
+
+</div>
+
+<!-- templates -->
+{{ define "section-tree-nav" }}
+{{ range .Sections.Reverse}}
+<li>{{ .Title }}
+  <ul>
+    {{ range .Pages }}
+    <li> <a href="{{ .RelPermalink}}">{{ .Title }}</a></li>
+    {{ end }}
+    <ul>
+      {{ template "section-tree-nav" . }}
+    </ul>
+  </ul>
+</li>
+{{ end }}
+{{ end }}

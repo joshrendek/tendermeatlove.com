@@ -3,17 +3,265 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://tendermeatlove.com/categories/</loc>
+    <loc>https://tendermeatlove.com/2018/12/bbq-brisket/</loc>
+    <lastmod>2018-12-24T01:18:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/2018/12/sous-vide-rump-roast/</loc>
+    <lastmod>2018-12-21T01:18:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/2018/12/yorkshire-pudding/</loc>
+    <lastmod>2018-12-21T01:18:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/2018/12/hollandaise-sauce/</loc>
+    <lastmod>2018-12-20T01:18:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/2018/12/pork-filet-w/-mushroom-sauce/</loc>
+    <lastmod>2018-12-15T01:18:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/2018/12/banana-bread/</loc>
+    <lastmod>2018-12-02T01:18:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/2018/12/zucchini-bread/</loc>
+    <lastmod>2018-12-01T01:18:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/2018/09/smoked-chicken-wings/</loc>
+    <lastmod>2018-09-08T01:18:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/2018/09/smoked-duck-breast/</loc>
+    <lastmod>2018-09-08T01:18:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/2018/09/smoked-sausage/</loc>
+    <lastmod>2018-09-08T01:18:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/2018/08/charred-carrots/</loc>
+    <lastmod>2018-08-27T01:18:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/2018/07/pan-seared-marinated-skirt-steak/</loc>
+    <lastmod>2018-07-25T01:18:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/2018/07/rosemary-and-oregano-chicken-breasts/</loc>
+    <lastmod>2018-07-22T01:18:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/2018/07/sauted-apples/</loc>
+    <lastmod>2018-07-22T01:18:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/2018/07/spinach-stuffed-pork-chop/</loc>
+    <lastmod>2018-07-22T00:18:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/2018/07/baguette-w/-mozzarella-tomato-basil/</loc>
+    <lastmod>2018-07-21T20:18:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/2018/07/bean-salad/</loc>
+    <lastmod>2018-07-19T20:18:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/2018/07/quick-white-pizza/</loc>
+    <lastmod>2018-07-19T20:18:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/2018/07/garlic-mashed-fingerling-potatoes/</loc>
+    <lastmod>2018-07-12T20:18:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/2018/07/jacques-pear/apple-tart/</loc>
+    <lastmod>2018-07-10T20:18:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/2018/07/jacques-stovetop-flat-bread/</loc>
+    <lastmod>2018-07-10T20:18:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/2018/07/broiled-tilapia-w/-mustard-chive-sauce/</loc>
+    <lastmod>2018-07-08T20:18:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/2018/07/pork-chops-w/-apples-and-garlic-mash/</loc>
+    <lastmod>2018-07-08T20:18:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/categories/appetizer/</loc>
+    <lastmod>2018-07-21T20:18:27-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://tendermeatlove.com/</loc>
+    <loc>https://tendermeatlove.com/tags/bbq/</loc>
+    <lastmod>2018-12-24T01:18:27-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/categories/bread/</loc>
+    <lastmod>2018-12-21T01:18:27-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/tags/bread/</loc>
+    <lastmod>2018-12-02T01:18:27-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/tags/broiler/</loc>
+    <lastmod>2018-07-21T20:18:27-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/categories/</loc>
+    <lastmod>2018-07-21T20:18:27-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/tags/cold/</loc>
+    <lastmod>2018-07-19T20:18:27-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/tags/cream-sauce/</loc>
+    <lastmod>2018-12-15T01:18:27-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/categories/dessert/</loc>
+    <lastmod>2018-07-10T20:18:27-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/tags/fish/</loc>
+    <lastmod>2018-07-08T20:18:27-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/tags/fruit/</loc>
+    <lastmod>2018-07-10T20:18:27-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/tags/gluten-free/</loc>
+    <lastmod>2018-12-15T01:18:27-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/categories/main-dish/</loc>
+    <lastmod>2018-12-24T01:18:27-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/tags/meal-prep/</loc>
+    <lastmod>2018-07-22T01:18:27-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/posts/</loc>
+    <lastmod>2018-12-24T01:18:27-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/tags/quick/</loc>
+    <lastmod>2018-08-27T01:18:27-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/categories/sauce/</loc>
+    <lastmod>2018-12-20T01:18:27-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/tags/savory/</loc>
+    <lastmod>2018-12-21T01:18:27-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/categories/side-dish/</loc>
+    <lastmod>2018-12-21T01:18:27-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/tags/smoking/</loc>
+    <lastmod>2018-09-08T01:18:27-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/tags/snack/</loc>
+    <lastmod>2018-07-19T20:18:27-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/tags/sous-vide/</loc>
+    <lastmod>2018-12-21T01:18:27-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://tendermeatlove.com/tags/</loc>
+    <lastmod>2018-12-24T01:18:27-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tendermeatlove.com/</loc>
+    <lastmod>2018-12-24T01:18:27-04:00</lastmod>
     <priority>0</priority>
   </url>
   
