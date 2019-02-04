@@ -3,32 +3,32 @@
     <h1><span class="title">{{ .Title }}</span></h1>
     {{ with .Params.author }}<h2 class="author">{{ . }}</h2>{{ end }}
 </div>
-<main>
-    <ul class="ingredients content">
-        <strong>Servings:</strong> {{ .Params.servings }}
-        <br>
-        <strong>Calories:</strong> ~{{ .Params.calories }}/serving
-        <br>
-        <strong>Time:</strong> {{ .Params.time }}
-        <hr>
-        <strong>Ingredients</strong>
-        <ul>
-        {{ range $index, $element := .Params.ingredients }}
-        <li>{{ $element }}</li>
-        {{ end }}
-        </ul>
-    </ul>
-    <hr>
-    <strong>Instructions:</strong>
-    <div class="content">
-    {{ .Content }}
-    </div>
+<main class="content">
+  <table>
+    <tr>
+      <td><strong>Servings:</strong> {{ .Params.servings }}</td>
+      <td><strong>Calories:</strong> ~{{ .Params.calories }}/serving</td>
+      <td><strong>Time:</strong> {{ .Params.time }}</td>
+    </tr>
+  </table>
+  <hr class="is-hidden-print">
+  <strong>Ingredients</strong>
+  <ul class="ingredients">
+    {{ range $index, $element := .Params.ingredients }}
+    <li>{{ $element }}</li>
+    {{ end }}
+  </ul>
+  <hr class="is-hidden-print">
+  <strong>Instructions:</strong>
+  {{ .Content }}
 
+  <div class="is-hidden-print">
     <small>Source: {{ .Params.source }}</small>
     {{ if (gt .Params.date 0) }}
     <br>
     <small class="date">Made on: {{ .Date.Format "2006/01/02" }}</small>
-    {{ end }}
+  </div>
+  {{ end }}
 </main>
 
 {{ partial "footer.html" . }}
