@@ -5,7 +5,7 @@ draft: false
 servings: 1
 time: 5m
 calories: N/A
-source: Serious Eats
+source: FoodNetwork
 ingredients:
     - 2 medium tomatoes
     - 2 jalapeno peppers
