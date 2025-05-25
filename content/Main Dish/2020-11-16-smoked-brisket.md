@@ -24,6 +24,6 @@ tags:
 * Spritz with mixture of worstechire and water
 * Pull off smoker at 200-205 internal and let rest for several hours
 * References:
-  * https://bbqonmain.com/aaron-franklin-barbecue-brisket-recipe/
-  * https://www.smokedbbqsource.com/smoking-your-first-brisket/
+  * [https://bbqonmain.com/aaron-franklin-barbecue-brisket-recipe/](https://web.archive.org/web/20210613175236/https://bbqonmain.com/aaron-franklin-barbecue-brisket-recipe/)
+  * [https://www.smokedbbqsource.com/smoking-your-first-brisket/](https://web.archive.org/web/20250403104004/https://www.smokedbbqsource.com/smoking-your-first-brisket/)
 
